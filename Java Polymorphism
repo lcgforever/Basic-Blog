@@ -16,7 +16,7 @@ Finally, calling a method on an object reference is a subtle and complex interac
 
 If both A and B implement a method f() for example, and the static type is A and the dynamic type involved is C for a method invocation, then B.f() will be invoked:
 
-```
+```html
 B extends A, C extends B
 public A.f() {}
 public B.f() {}
